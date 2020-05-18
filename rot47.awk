@@ -1,5 +1,5 @@
 awk '
-# Created by Mason Ip, 2020-05-15
+# Created by mason331, 2020-05-15
 BEGIN {
  _ord_init()
 }
@@ -39,7 +39,7 @@ function ord(str, c)
  return _ord_[c]
 }
 # rot.pas copied from here: https://rot47.net/
-# Translated into awk custom function rot47() by Mason Ip
+# Translated into awk custom function rot47() by mason331
 function rot47(str)
 {
  result = ""
