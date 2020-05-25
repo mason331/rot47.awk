@@ -30,9 +30,7 @@ Hello World
 
 
 #########################
-
 # rot47_hl7_sub-field.awk
-
 #########################
 
 Apply rot47 to HL7 sub-fielfs
@@ -40,6 +38,7 @@ Apply rot47 to HL7 sub-fielfs
 Examples:
 
 $ cat xx.txt
+
 5|AAA_BBB|123|Pie^subfield2|Apple^subfield2|F|19500111|20191028091051|B
 8|AAA_BBB|234|Juice^subfield2|Orange^subfield2|F|19800123|20191028091051|B
 
