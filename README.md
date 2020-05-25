@@ -14,11 +14,26 @@ $ echo Hello World | sh rot47.awk | sh rot47.awk
 
 Hello World
 
-#######################
+##############
+# rot47_tr.awk
+##############
 
-rot47_hl7_sub-field.awk
+Examples:
 
-#######################
+$ echo Hello World | sh rot47_tr.awk
+
+w6==@ (@C=5
+
+$ echo Hello World | sh rot47_tr.awk | sh rot47_tr.awk
+
+Hello World
+
+
+#########################
+
+# rot47_hl7_sub-field.awk
+
+#########################
 
 Apply rot47 to HL7 sub-fielfs
 
